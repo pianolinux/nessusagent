@@ -1,0 +1,15 @@
+{
+  "name": "root-nessusagent",
+  "version": "0.1.0",
+  "author": "Simon Sunmonu",
+  "summary": "This Module will register nessus agent to the master at boot. This Module runs the exec script at first boot.",
+  "license": "Apache-2.0",
+  "source": "here",
+  "project_page": "Simon",
+  "issues_url": "Jira",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
